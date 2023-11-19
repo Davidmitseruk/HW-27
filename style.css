@@ -7,7 +7,7 @@
     text-decoration: none;
     cursor: pointer;
     display: block;
-    padding: 50px 20px;
+    padding: 300px 20px;
     color: white;
     text-transform: uppercase;
     font-size: 20px;
@@ -18,7 +18,7 @@
     margin-top: 30px;
     margin-left: 10px;
     position: absolute;
-    height: 86%;
+    height: 96%;
     top: 0;
     list-style: none;
     padding: 15px;
@@ -29,9 +29,12 @@
 }
 .side-link{
     margin-bottom: 10px;
+   
+}
+.text{
     text-decoration: none;
     color: white;
-    
+    list-style: none;
 }
 .menu-item:hover .submenu{
     transform: translateX(0);
