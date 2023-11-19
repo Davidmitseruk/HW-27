@@ -1,0 +1,40 @@
+.menu-item{
+    position: relative;
+
+}
+.menu-link{
+    background-color: gray;
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+    padding: 50px 20px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}
+.submenu{
+    margin-top: 30px;
+    margin-left: 10px;
+    position: absolute;
+    height: 86%;
+    top: 0;
+    list-style: none;
+    padding: 15px;
+    margin: 0;
+    background-color: gray;
+    transform: translateX(-120%);
+    transition: transform 500ms ease-in-out;
+}
+.side-link{
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: white;
+    
+}
+.menu-item:hover .submenu{
+    transform: translateX(0);
+    opacity: 1;
+    visibility: visible;
+}
